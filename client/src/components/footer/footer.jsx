@@ -8,10 +8,6 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <div className={style.container_footer_subtract}>
-                    <span className={style.footer_subtract}></span>
-                </div>
-                <div className={style.bg_footer}>
                     <div className={style.footer_container}>
                         <nav className={style.menu_footer}>
                             <ul>
@@ -49,9 +45,6 @@ const Footer = () => {
                                 <a href='https://telegram.org/?1&ysclid=lpx2ewlfdr615575302' target='_blank' rel="noreferrer">
                                     <img src={telegram} alt='' />
                                 </a>
-                                {/* <a href='https://t.me/s/instagram' target='_blank' rel="noreferrer">
-                                    <img src={instagram} alt='' />
-                                </a> */}
                             </div>
                             <div className={style.footer_information}>
                                 <p>г. Волгодонск, пер. Кубанский, д. 16</p>
@@ -63,7 +56,6 @@ const Footer = () => {
                         </nav>
 
                     </div>
-                </div>
             </footer>
         </>
     )

@@ -76,6 +76,17 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
+                    <div className={style.card_services_item}>
+                        <div className={style.card_services_img}>
+                            <img src={seo} alt=""/>
+                        </div>
+                        <div className={style.card_services_information}>
+                            <h3>SEO-оптимизация</h3>
+                            <p>
+                                Поможем повысить конверсию вашего мобильного приложения или сайта
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
 

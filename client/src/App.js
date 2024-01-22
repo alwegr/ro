@@ -6,6 +6,7 @@ import Services from './components/services/services';
 import Footer from './components/footer/footer';
 import Contacts from './components/contacts/contact';
 import Questions from './components/questions/questions';
+import Prices from './components/prices/prices';
 
 
 export class App extends Component {
@@ -15,6 +16,7 @@ export class App extends Component {
         <Navbar />
         <Main/>
         <Services />
+        <Prices/>
         <Contacts/>
         <Questions/>
         <Footer/>
