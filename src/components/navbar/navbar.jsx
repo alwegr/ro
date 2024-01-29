@@ -32,16 +32,16 @@ const Navbar = () => {
                                 nav ? [style.menu, style.active].join(' ') : [style.menu]
                             }
                         >
-                            {/* <li>
-                                <Link activeClass={style.actives} smooth spy to="about" onClick={() => {
-                                    closeMenu()}}>
-                                    О нас
-                                </Link>
-                            </li> */}
                             <li>
                                 <Link activeClass={style.actives} smooth spy to="services"  onClick={() => {
                                     closeMenu()}}>
                                     Услуги
+                                </Link>
+                            </li>
+                            <li>
+                                <Link activeClass={style.actives} smooth spy to="prices"  onClick={() => {
+                                    closeMenu()}}>
+                                    Стоимость работ
                                 </Link>
                             </li>
                             <li>
@@ -51,17 +51,17 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link activeClass={style.actives} smooth spy to="questions" onClick={() => {
+                                <Link activeClass={style.actives} smooth spy to="accordion" onClick={() => {
                                     closeMenu()}}>
                                     Частые вопросы
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link activeClass={style.actives} smooth spy to="reviews" onClick={() => {
                                     closeMenu()}}>
                                     Отзывы
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
 
                         <div onClick={() => setNav(!nav)} className={style.mobile_btn}>

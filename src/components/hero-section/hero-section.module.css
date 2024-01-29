@@ -20,7 +20,8 @@
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: 80px; /* 125% */
+    line-height: 80px;
+    /* 125% */
 }
 
 .container_title p {
@@ -31,6 +32,23 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 28px; /* 140% */
+    line-height: 28px;
+    /* 140% */
     padding: 40px 0 32px 0;
+}
+
+.hero_section_button{
+    width: 263px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    color: var(--white, #FFF);
+    border-radius: 48px;
+    border: 2px solid var(--accent_copy);
+    background: var(--accent_copy, #FA9232);
+    cursor: pointer;
 }

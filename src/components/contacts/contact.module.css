@@ -99,19 +99,19 @@ textarea {
     height: 186px;
 } */
 
-button[type=submit] {
+.contatct_button {
     width: 136px;
     height: 48px;
-    margin-top: 40px;
+    font-size: 16px;
+    margin-top: 15px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 12px 28px;
-    background-color: #130538;
-    color: var(--accent);
+    color: var(--white, #FFF);
     border-radius: 48px;
     border: 2px solid var(--accent);
-    background: var(--white);
+    background: var(--accent_copy, #FA9232);
     cursor: pointer;
 }
 
@@ -128,9 +128,9 @@ button[type=submit]:hover {
     color: var(--white);
 } */
 
-button:disabled{
+/* button:disabled{
     background-color: #797282;
-}
+} */
 
 /* .message{
     width: 100%;
@@ -147,12 +147,24 @@ button:disabled{
     text-align: center;
 } */
 
-.checkbox a{
+.checkbox a {
     color: #fff;
 }
 
-.pushbutton{
+.pushbutton {
     width: 14px;
     height: 14px;
 }
 
+.checkbox {
+    padding: 0 0 15px;
+}
+
+.error {
+    padding: 1px 0 15px;
+    color: rgba(255, 0, 0, 0.664);
+}
+
+input[type=checkbox]{
+    margin-right: 5px;
+}
